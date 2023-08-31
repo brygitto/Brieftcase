@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Briefcase</title>
+  <meta name="description" content="particles.js is a lightweight JavaScript library for creating particles.">
+  <meta name="author" content="Vincent Garreau" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <link rel="stylesheet" media="screen" href="css/style.css">
+   <link rel="stylesheet" media="screen" href="css/style2.css">
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+</head>
+<body>
+<div class="panel" style="display: block;">
+	<img class="foto" src="img/logoperfil.png">
+	<h1>BRIEFCASE</h1>
+  <span class="r-version">v1.0.0</span>
+	<h2>Made for Bryan Villamizar</h2>
+	<ul>
+		<li onclick="ga('send', 'event', 'GitHub', 'click');">
+      <a href="https://github.com/brygitto?tab=repositories" target="_blank">
+        <span class="label">My GitHub</span>
+      </a>
+    </li>
+		<li onclick="ga('send', 'event', 'Download', 'click');">
+      <a href="#about-wrapper">
+        <span class="label">¡Say Hello!</span>
+      </a>
+    </li>
+	</ul>
+	
+</div>
+
+<!-- particles.js container -->
+<div id="particles-js"></div>
+
+<!-- scripts -->
+<script src="js/particles.js"></script>
+<script src="js/app.js"></script>
+
+<!-- stats.js -->
+<script src="js/lib/stats.js"></script>
+
+
+<div class = "about-wrapper" id="about-wrapper">
+      <div class = "about-left">
+        <div class = "about-left-content">
+          <div>
+            <div class = "shadow">
+              <div class = "about-img">
+                <img src = "img/logoperfil.png" alt = "about image">
+              </div>
+            </div>
+
+            <h2>Bryan<br>Villamizar</h2>
+            <h3>developer</h3>
+          </div>
+
+          
+          <ul class="icons">
+            <li><a href="https://www.facebook.com"><i class="fab fa-facebook-f" target="_blank"></i></a></li>
+            <li><a href="https://www.twitter.com"><i class="fab fa-twitter" target="_blank"></i></a></li>
+            <li><a href="https://www.linkedin.com/in/bryan-villamizar-3a4364211/" target="_blank"><i class="fab fa-linkedin" ></i></a></li>
+            <li><a href="https://www.instagram.com"><i class="fab fa-instagram" target="_blank"></i></a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class = "about-right">
+        <h1>hi<span>!</span></h1>
+        <h2>Conoceme aqui</h2>
+        <div class = "about-btns">
+          <button onclick="window.location.href='vitae.html';" type = "button" class = "btn btn-pink">Hoja de vida</button>
+          <button onclick="window.location.href='proyectos.html';" type = "button" class = "btn btn-white">Proyectos</button>
+        </div>
+
+        <div class = "about-para">
+          <p>Realice diferentes estapas en los proyectos que participe, desde analisis, diseño, desarrollo y casos de prueba, esto mediante la metodoligia Scrum, el cual se evaluaba por medio de una plataforma llamada Jira en donde se documentaba todo para la gestión de proyectos, seguimiento de errores e incidencias, gracias a estas experiencias siempre estoy mejorando para estar preaparado para todo, es por ello que me encuentro en constante aprendizaje desarrollando y mejorando nuevas habilidades y conocimientos.</p>
+        </div>
+      </div>
+    </div>
+
+</body>
+</html>
